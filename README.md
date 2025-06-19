@@ -1,7 +1,5 @@
 # FastApi-React
 
-Uma breve descrição do que o projeto faz.
-
 ## Tecnologias Utilizadas
 
 *   **Backend:** Python, FastAPI, SQLAlchemy, Uvicorn, (seu banco de dados, ex: SQLite)
@@ -75,10 +73,10 @@ Siga os passos abaixo para configurar e executar a aplicação completa em sua m
 5.  **Substitua a pasta `src`:**
     Delete a pasta `src` que foi criada automaticamente pelo `create-react-app` dentro de `my-app`. Em seguida, copie a pasta `src` do projeto que você baixou (a pasta `src` do frontend) para dentro de `my-app`.
 
-6.  **Instale `react-router-dom` (e outras dependências específicas do seu `src` que não vêm com `create-react-app`):**
+6.  **Instale `react-router-dom`:**
     ```bash
     npm install react-router-dom axios 
-    # Adicione outras dependências se o seu src copiado as utilizar
+    
     ```
 7.  **Inicie a aplicação frontend:**
     ```bash
@@ -89,4 +87,3 @@ Siga os passos abaixo para configurar e executar a aplicação completa em sua m
 
 Agora você deve ter o backend rodando em uma porta (ex: 8000) e o frontend em outra (ex: 3000), e eles devem conseguir se comunicar.
 
-## Estrutura do Projeto (Exemplo)
