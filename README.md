@@ -17,6 +17,7 @@ Siga os passos abaixo para configurar e executar a aplicação completa em sua m
 1.  **Navegue até a pasta do backend:**
     Assumindo que a pasta do backend se chama `curso-fastapi` (ajuste se for diferente) e está na raiz do projeto clonado:
     ```bash
+    cd fastapi-react
     cd curso-fastapi
     ```
 
