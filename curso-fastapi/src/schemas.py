@@ -1,4 +1,4 @@
-from pydantic import BaseModel, EmailStr
+from pydantic import BaseModel, EmailStr, Field
 import datetime
 
 class AuthorCreate(BaseModel):
@@ -13,10 +13,10 @@ class UserLogin(BaseModel):
 class PostCreate(BaseModel):
     title: str
     text: str
-    date: datetime.datetime = datetime.datetime.now
+    date: datetime.datetime = Field(default_factory=datetime.datetime.now)
 
 class CommentCreate(BaseModel):
     post_id: int
     title: str
     text: str
-    date: datetime.datetime = datetime.datetime.now
+    date: datetime.datetime = Field(default_factory=datetime.datetime.now)
